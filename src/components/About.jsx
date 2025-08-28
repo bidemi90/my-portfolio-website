@@ -1,5 +1,8 @@
 import React from "react";
-
+import backend from "../assets/icons/backend.png";
+import ai_agent from "../assets/icons/ai-agent1.png";
+import automation from "../assets/icons/automation1.png";
+import frontend from "../assets/icons/frontend.png";
 const About = () => {
   return (
     <>
@@ -14,12 +17,24 @@ const About = () => {
             create solutions that are both functional and visually engaging.
           </p>
         </div>
-           <div className="about-skills-container">
-            <div className="box-1">Frontend Developer</div>
-            <div className="box-1">Backend Developer</div>
-            <div className="box-1">AI Agent Developer</div>
-            <div className="box-1">Automation Specialist</div>
+        <div className="about-skills-container">
+          <div className="box-1">
+            <img src={frontend} alt="" />
+            <p>Frontend <br /> Developer</p>
           </div>
+          <div className="box-1">
+            <img src={backend} alt="" />
+            <p>Backend <br /> Developer</p>
+          </div>
+          <div className="box-1">
+            <img src={ai_agent} alt="" />
+            <p>AI Agent <br /> Developer</p>
+          </div>
+          <div className="box-1">
+            <img src={automation} alt="" />
+            <p>Automation <br /> Specialist</p>
+          </div>
+        </div>
       </section>
     </>
   );

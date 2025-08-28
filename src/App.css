@@ -264,7 +264,7 @@
   margin: 0px;
   font-weight: bolder;
 }
-.about-description{
+.about-description {
   font-size: 15px;
   line-height: 1.6;
   text-align: start;
@@ -272,7 +272,7 @@
   margin: 0px;
   font-weight: 500;
 }
-.about-skills-container{
+.about-skills-container {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -280,14 +280,35 @@
   margin-top: 20px;
 }
 .box-1 {
-  padding: 10px 15px;
-  width: fit-content;
-  height: 200px;
+  padding: 10px 20px;
+  width: 250px;
+  height: 300px;
   border: 2px solid #262a10;
-  border-radius: 5px;
+  border-radius: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   cursor: default;
+  background-color: #262a10;
+  box-shadow: 10px 10px 8px #262a1085;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box-1 img {
+  height: 100px;
+  margin-bottom: 30px;
+}
+.box-1:hover {
+  transform: scale(1.01);
+  transition: linear ease-in-out 1s;
+}
+.box-1 p{
+  font-family: mova;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
 }
