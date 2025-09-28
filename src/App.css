@@ -432,7 +432,6 @@
   animation-delay: 1s;
 }
 
-
 /* project section  */
 .project-header {
   font-family: "Mova";
@@ -464,6 +463,103 @@
   padding: 4px 8px;
   border-radius: 4px;
 }
+
+/* education section */
+
+.education-timeline {
+  padding: 40px 0;
+  background: #fff;
+}
+
+.education-title {
+  font-family: "Mova", sans-serif;
+  color: rgb(38, 42, 16);
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.timeline-container {
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: rgb(38, 42, 16);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.education-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(38, 42, 16, 0.08);
+  padding: 28px 32px;
+  min-width: 280px;
+  max-width: 380px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(38, 42, 16);
+  transition: box-shadow 0.3s, transform 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-item.left .education-card {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.timeline-item.right .education-card {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.education-card:hover {
+  box-shadow: 0 8px 32px rgba(38, 42, 16, 0.18);
+  transform: translateY(-6px) scale(1.03);
+}
+
+.card-content .school-name {
+  font-family: "Mova", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-content .years {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #888;
+}
+
+.card-content .degree {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.card-content .course {
+  font-size: 1rem;
+  color: #555;
+}
+
+
 
 
 @media (max-width: 800px) {
@@ -678,3 +774,12 @@
   }
 }
 
+
+/* Make it responsive but keep left/right alternation for eduction section */
+@media (max-width: 768px) {
+  .education-card {
+    min-width: 90%;
+    max-width: 90%;
+    padding: 22px 16px;
+  }
+}
