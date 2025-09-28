@@ -9,6 +9,7 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Education from "./components/Education";
+import Contact from "./components/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
         <Skill/>
         <Project/>
         <Education/>
+        <Contact/>
       </BrowserRouter>
     </>
   );
