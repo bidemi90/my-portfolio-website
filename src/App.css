@@ -560,6 +560,104 @@
 }
 
 
+/* contact section */
+.contact-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #262a10;
+  color: white;
+  padding: 150px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 8px 32px rgba(38, 42, 16, 0.2);
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-align: left;
+}
+.contact-form * {
+  text-align: left;
+  width: fit-content;
+}
+
+.contact-title {
+  font-family: "Mova";
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.contact-textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-button {
+  /* width: 100%; */
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background: #262a10;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px #fff;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 14px #fff;
+}
+.contact-info {
+  margin-bottom: 20px;
+  line-height: 2.5; /* 1.6 times the font size */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.phone-link {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+
+
 
 
 @media (max-width: 800px) {
@@ -782,99 +880,4 @@
     max-width: 90%;
     padding: 22px 16px;
   }
-}
-/* contact section */
-.contact-section {
-  width: 100%;
-  min-height: 100vh;
-  background-color: #262a10;
-  color: white;
-  padding: 150px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.contact-form-container {
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-}
-
-.contact-form {
-  width: 100%;
-  max-width: 700px;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(12px);
-  border-radius: 18px;
-  padding: 28px;
-  box-shadow: 0 8px 32px rgba(38, 42, 16, 0.2);
-  font-family: "Poppins", sans-serif;
-  color: #ffffff;
-  text-align: left;
-}
-.contact-form * {
-  text-align: left;
-  width: fit-content;
-}
-
-.contact-title {
-  font-family: "Mova";
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.8rem;
-  color: #ffffff;
-}
-
-.contact-input,
-.contact-textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 14px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  outline: none;
-  font-family: inherit;
-  font-size: 1rem;
-}
-
-.contact-textarea {
-  resize: none;
-  height: 120px;
-}
-
-.contact-button {
-  /* width: 100%; */
-  padding: 12px;
-  font-size: 1rem;
-  border-radius: 8px;
-  background: #262a10;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 0 10px #fff;
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
-}
-
-.contact-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 14px #fff;
-}
-.contact-info {
-  margin-bottom: 20px;
-  line-height: 2.5; /* 1.6 times the font size */
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-}
-.phone-link {
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
-  margin-right: 10px;
-  margin-left: 10px;
-  font-weight: bold;
-  text-transform: capitalize;
 }
