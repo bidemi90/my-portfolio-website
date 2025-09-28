@@ -432,6 +432,40 @@
   animation-delay: 1s;
 }
 
+
+/* project section  */
+.project-header {
+  font-family: "Mova";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #262a10;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.each-project-holder {
+  background-color: #262a10;
+}
+
+.text-in-one-project-card {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.text-in-one-project-card p {
+  color: #d1d5db;
+  font-size: 14px;
+}
+.text-in-one-project-card a {
+  color: #3b82f6;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(38, 42, 16);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 1);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+
 @media (max-width: 800px) {
   .header section div button {
     margin: 0px 10px;
@@ -643,3 +677,4 @@
     margin-top: 140px;
   }
 }
+
