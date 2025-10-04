@@ -6,7 +6,7 @@ import frontend from "../assets/icons/frontend.png";
 const About = () => {
   return (
     <>
-      <section className="about-container ">
+      <section className="about-container " id="about">
         <div className="about-inner-container">
           <p className="about-p Mova">Introduction</p>
           <h2 className="about-h2 poppins-bold">Overview</h2>

@@ -5,19 +5,25 @@ const Header = () => {
     <>
       <nav className="header">
         <div>a tech</div>
-        <section>
+         <section>
           <div>
-            <button>about</button>
+            <a href="#about">
+              <button>about</button>
+            </a>
             <hr />
           </div>
 
           <div>
-            <button>project</button>
+            <a href="#projects">
+              <button>project</button>
+            </a>
             <hr />
           </div>
 
           <div>
-            <button>contact</button>
+            <a href="#contact">
+              <button>contact</button>
+            </a>
             <hr />
           </div>
         </section>

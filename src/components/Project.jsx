@@ -2,36 +2,33 @@ import React from "react";
 import LinkPreview from "./LinkPreview";
 
 const projects = [
-  {
-    title: "Project Title 1",
-    description: "Brief description of the project goes here.",
-    url: "http://localhost:5174/",
-  },
-  {
-    title: "Project Title 2",
-    description: "Brief description of the project goes here.",
-    url: "http://localhost:5173/",
-  },
-  {
-    title: "Project Title 3",
-    description: "Brief description of the project goes here.",
-    url: "https://edu.sqi.ng/our-story/",
-  },
-  {
-    title: "Project Title 3",
-    description: "Brief description of the project goes here.",
-    url: "https://edu.sqi.ng/our-story/",
-  },
-  {
-    title: "Project Title 3",
-    description: "Brief description of the project goes here.",
-    url: "https://edu.sqi.ng/our-story/",
-  },
-  {
-    title: "Project Title 3",
-    description: "Brief description of the project goes here.",
-    url: "https://edu.sqi.ng/our-story/",
-  },
+ {
+  title: "Hostel Management System",
+  description: "A full-stack system for managing hostel allocations, payments, and student records with secure authentication.",
+  url: "https://fuoye-room-frontend.vercel.app/",
+},
+{
+  title: "Attendance Management System",
+  description: "A real-time attendance tracking solution with reporting features to reduce errors and improve monitoring.",
+  url: "https://geo-attend-frontend.vercel.app/",
+},
+{
+  title: "AI Chatbot Automation",
+  description: "An AI-powered chatbot built with n8n and Node.js for automating customer service responses and FAQs.",
+  url: "",
+},
+{
+  title: "EV Demo Website",
+  description: "A responsive React and Tailwind demo site showcasing electric vehicle features.",
+  url: "https://voltistry-solution.netlify.app/",
+},
+{
+  title: "Loan Application System",
+  description: "A React and Node.js application that allows users to apply for loans, track applications, and manage approvals.",
+  url: "https://loan-app-fss-ebon.vercel.app/",
+},
+
+ 
 ];
 
 const Project = () => {
